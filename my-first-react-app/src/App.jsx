@@ -1,16 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import reactLogo from './assets/images/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import Greeting from './components/Greeting.jsx'
+import './assets/styles/App.css'
 
 function App() {
 
-  return (
-    <>
-      <div>
-        <text>Hello World</text>
-      </div>
-    </>
+  return ( 
+    <div>
+      <Greeting/>
+    </div>
   )
 }
 
