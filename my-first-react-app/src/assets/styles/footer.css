@@ -1,0 +1,3 @@
+footer {
+  height: calc(100vh - (var(header) + var(footer)));
+}/*# sourceMappingURL=footer.css.map */

@@ -4,8 +4,12 @@ header{
     display: flex;
     height: $header;
     >div:first-child img{
-        width: min(250px, 100%);
-	    height: min(150px, 100%);
+        object-fit: cover;
+        height: 100%;
+    }
+    >div:nth-child(2) {
+        width: 100%;
+        background-color: aqua;
     }
 }
 

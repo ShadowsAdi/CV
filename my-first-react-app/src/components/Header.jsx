@@ -7,7 +7,8 @@ function Header() {
             <div>
                 <img src = 'src/assets/images/poza.jpg' alt='Picture with me'/>
             </div>
-            <div className='general-description'>
+            
+            <div>
                 <div>
                     <h1>Mazere Andreea</h1>
                 </div>
