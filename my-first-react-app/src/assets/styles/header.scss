@@ -1,8 +1,11 @@
-header{
-    display:flex;
-    
-    >div:first-child{
+@import 'variables';
 
+header{
+    display: flex;
+    height: $header;
+    >div:first-child img{
+        width: min(250px, 100%);
+	    height: min(150px, 100%);
     }
 }
 

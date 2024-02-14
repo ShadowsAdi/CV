@@ -1,8 +1,7 @@
-import '../assets/styles/header.css'
+import '../assets/styles/header.scss'
 //used ../ to reference a file in the parent folder (important because i lost a lot of time on this)
 
 function Header() {
-
     return(
         <header>
             <div>

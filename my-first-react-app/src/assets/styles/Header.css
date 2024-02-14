@@ -1,6 +1,12 @@
 header {
   display: flex;
+  height: 3rem;
 }
+header > div:first-child img {
+  width: min(250px, 100%);
+  height: min(150px, 100%);
+}
+
 .general-description {
   background-color: rgb(205, 50, 50);
 }/*# sourceMappingURL=header.css.map */
