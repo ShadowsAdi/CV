@@ -1,15 +1,11 @@
 import { useState } from 'react'
 import Header from './components/Header.jsx'
-import './assets/styles/App.css'
+import './assets/styles/app.css'
 
 function App() {
-
   return ( 
-    <div className='app'>
-      
-      <Greeting/>
-    </div>
-  )
+      <Header/>
+  );
 }
 
 export default App
