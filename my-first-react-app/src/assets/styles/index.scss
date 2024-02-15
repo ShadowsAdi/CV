@@ -22,6 +22,7 @@ body {
   line-height: 1;
   text-rendering: optimizeSpeed;
   font-family: $font;
+  text-align: center;
 }
 
 // all media elements set to block and full width
@@ -78,7 +79,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: inherit;
   font-weight: inherit;
 }
 

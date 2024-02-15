@@ -2,4 +2,17 @@
 
 main{
     height: $main;
+    // margin: $margin_for_header_main_footer;
+    h1 {
+        text-align: left;
+    }
+    .summary{
+        height: 10vh;
+    }
+    .education{
+        height: 20vh;
+    }
+    .skills{
+        height: 30vh;
+    }
 }
