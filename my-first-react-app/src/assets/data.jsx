@@ -13,7 +13,7 @@ const rockpaperscissors = new Project("Kotlin", "easy", "Android Studio", "A gam
 const unitconverter = new Project("Kotlin", "intermediate", "Android Studio", "An app with the role of converting units by using a formula that is changing based on the user choice of the units to convert. For example centimeters in feet. ");
 
 //date personale
-const data = [{
+const data = {
     personalData: {
         phone: "+40 736 847 371", 
         email: "andreeamazere.am@gmail.com",
@@ -27,7 +27,7 @@ const data = [{
     },
     education: {
         highschool: ["“Unirea” National College, Focsani, Romania","Specialising in mathematics and computer science","10/2022-present"],
-        undegrad: ["National University of Science and Technology Politehnica Bucharest, Faculty of Industrial Engineering and Robotics", "Specialising in industrial informatics","09/2018-06/2022"]
+        undegrad: ["BS in Industrial Engineering and Robotics","National University of Science and Technology Politehnica Bucharest", "Specialising in industrial informatics","09/2018-06/2022"]
     },
     skills : {
         hard: {
@@ -41,4 +41,6 @@ const data = [{
         languages: ["romanian","native","english","B2"]
     }
 
-}];
+};
+
+export default data;
