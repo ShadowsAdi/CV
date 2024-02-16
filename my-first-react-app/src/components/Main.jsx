@@ -21,6 +21,14 @@ function Main() {
                     </ul>
                 </div>
                 <div>
+                    <p>
+                        {data.education.highschool[data.education.highschool.length - 1]}
+                    </p>
+                    <ul>
+                        {data.education.highschool.slice(0,data.education.highschool.length - 1).map((item,index) => (
+                            <li key = {index}>{item}</li>
+                        ))}
+                    </ul>
                 </div>
             </div>
             <div className='skills'>

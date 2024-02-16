@@ -7,13 +7,21 @@ main{
         text-align: left;
     }
     .summary{
-        height: 10vh;
+        margin-top: $margin_for_sections;
+        margin-bottom: $margin_for_sections;
     }
     .education{
-        height: 20vh;
-        
+        margin-top: $margin_for_sections;
+        margin-bottom: $margin_for_sections;
+        > div{
+            display: flex;
+            p{
+                margin-right: 10rem;
+                margin-left: 25vw;
+            }
+        }
     }
     .skills{
-        height: 30vh;
+      
     }
 }
