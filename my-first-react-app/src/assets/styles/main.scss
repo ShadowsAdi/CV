@@ -6,19 +6,30 @@ main{
     h1 {
         text-align: left;
     }
+    p{
+        margin-top:$margin_for_sections;
+    }
+    //button17 https://getcssscan.com/css-buttons-examples:
+    button{
+        border-radius: 24px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;;
+        padding: 1rem;
+        font-weight: 700;
+    }
+    button:hover{
+        color: #174ea6;
+        background: #F6F9FE;
+    }
     .summary{
-        margin-top: $margin_for_sections;
-        margin-bottom: $margin_for_sections;
+       margin: $margin_for_sections;
     }
     .education{
-        margin-top: $margin_for_sections;
-        margin-bottom: $margin_for_sections;
+         margin: $margin_for_sections;
         > div{
             display: flex;
-            p{
-                margin-right: 10rem;
-                margin-left: 25vw;
-            }
+            justify-content: space-between;
+            margin: $margin_for_sections;
         }
     }
     .skills{

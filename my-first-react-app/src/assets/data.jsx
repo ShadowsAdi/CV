@@ -27,7 +27,9 @@ const data = {
     },
     education: {
         highschool: ["“Unirea” National College, Focsani, Romania","Specialising in mathematics and computer science","10/2022-present"],
-        undegrad: ["BS in Industrial Engineering and Robotics","National University of Science and Technology Politehnica Bucharest", "Specialising in industrial informatics","09/2018-06/2022"]
+        learn_in_hs: ["C++, Pseudocode"],
+        undegrad: ["BS in Industrial Engineering and Robotics","National University of Science and Technology Politehnica Bucharest", "Specialising in industrial informatics","09/2018-06/2022"],
+        learn_in_undegrad: ["Fusion360, AutoCAD, OOP, IoT"]
     },
     skills : {
         hard: {

@@ -1,7 +1,10 @@
 import '../assets/styles/main.scss'
 import data from '../assets/data';
+import Learn from './Learn'
+import { useState } from "react";
 
 function Main() {
+
     return(
         <main>
             <div className='summary'>
@@ -19,6 +22,9 @@ function Main() {
                             <li key = {index}>{item}</li>
                         ))}
                     </ul>
+                    <Learn load = {() => {
+
+                    }}/>
                 </div>
                 <div>
                     <p>
@@ -29,10 +35,19 @@ function Main() {
                             <li key = {index}>{item}</li>
                         ))}
                     </ul>
+                    <button onclick>What did I learn in highschool?</button>
                 </div>
             </div>
             <div className='skills'>
                 <h1>SKILLS</h1>
+                <div className='hard'>
+
+                </div>
+                <div className='soft'>
+
+                </div>
+                <div className='languages'></div>
+                <div className='projects'></div>
             </div>
         </main>
     );
