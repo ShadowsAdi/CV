@@ -26,9 +26,9 @@ const data = {
         text: "I am a second year student at the Faculty of Industrial Engineering and Robotics, UNSTPB, Bucharest. My top qualities are that I am a determined person who learns quickly and Ilike to work as efficiently as possible in terms of time and productivity"
     },
     education: {
-        highschool: ["“Unirea” National College, Focsani, Romania","Specialising in mathematics and computer science","10/2022-present"],
+        highschool: ["“Unirea” National College, Focsani, Romania","Specialising in mathematics and computer science","09/2018-06/2022"],
         learn_in_hs: ["C++, Pseudocode"],
-        undegrad: ["BS in Industrial Engineering and Robotics","National University of Science and Technology Politehnica Bucharest", "Specialising in industrial informatics","09/2018-06/2022"],
+        undegrad: ["BS in Industrial Engineering and Robotics","National University of Science and Technology Politehnica Bucharest", "Specialising in industrial informatics","10/2022-present"],
         learn_in_undegrad: ["Fusion360, AutoCAD, OOP, IoT"]
     },
     skills : {

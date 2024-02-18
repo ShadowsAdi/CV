@@ -2,6 +2,7 @@
 
 main{
     height: $main;
+    
     // margin: $margin_for_header_main_footer;
     h1 {
         text-align: left;
@@ -25,7 +26,7 @@ main{
        margin: $margin_for_sections;
     }
     .education{
-         margin: $margin_for_sections;
+        margin: $margin_for_sections;
         > div{
             display: flex;
             justify-content: space-between;
@@ -33,6 +34,6 @@ main{
         }
     }
     .skills{
-      
+        margin: $margin_for_sections;
     }
 }

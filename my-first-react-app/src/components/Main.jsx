@@ -2,6 +2,7 @@ import '../assets/styles/main.scss'
 import data from '../assets/data';
 import Learn from './Learn'
 import { useState } from "react";
+import Skills from "./Skills"
 
 function Main() {
 
@@ -41,7 +42,7 @@ function Main() {
             <div className='skills'>
                 <h1>SKILLS</h1>
                 <div className='hard'>
-
+                    <Skills data = {data.skills.hard}/>
                 </div>
                 <div className='soft'>
 
