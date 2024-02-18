@@ -1,8 +1,10 @@
 @import 'variables';
 
 main{
-    height: $main;
     
+    > div > div, > div {
+       margin: $margin_for_sections;
+    }
     // margin: $margin_for_header_main_footer;
     h1 {
         text-align: left;
@@ -22,18 +24,16 @@ main{
         color: #174ea6;
         background: #F6F9FE;
     }
-    .summary{
-       margin: $margin_for_sections;
-    }
+    
     .education{
-        margin: $margin_for_sections;
         > div{
             display: flex;
             justify-content: space-between;
-            margin: $margin_for_sections;
         }
     }
     .skills{
-        margin: $margin_for_sections;
+        .hard{
+            margin: 15px 13px 15px 13px;
+        }
     }
 }

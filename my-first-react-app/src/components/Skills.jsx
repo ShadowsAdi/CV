@@ -1,11 +1,34 @@
+import '../assets/styles/main.scss'
 
-export default function Skills({data}) {
-    return (
-        <>
-            {Object.keys(data).map(key => {
-                const value = data[key];
-                    return <i>{value}</i>
-            })}
+export default function HardSkills({data}) {
+
+    function skill(x, first = 0){
+        if(first == 1)
+            return <i style = {{fontWeight: 700, fontSize: 18}}>{x};    </i> //for the first property which is not an array (software)
+        else
+            return <i style = {{fontWeight: 700, fontSize: 18}}>{x}</i>
+    }
+    function proficiency(x){
+        return <i style = {{fontWeight: 0, fontSize: 18}}>    ({x});    </i>
+    }
+    return(
+        //data = data.skills.hard
+        //data[index] = software,webdev...one at a time
+        <> 
+            <h1>HARD SKILLS</h1>
+            <div className='hard'>
+                {Object.keys(data).map((index) => {
+                    let idk = Array.isArray(data[index]);
+                    if(idk == true){
+                        return data[index].map((value, key) => (
+                            key % 2 ? proficiency(value) : skill(value)
+                        ));
+                    }
+                    else
+                        return skill(data[index], 1);
+                })}
+                
+            </div>
         </>
     );
 }

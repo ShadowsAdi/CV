@@ -23,7 +23,7 @@ const data = {
         driverslicense: "AM,B1,B"
     },
     summary: {
-        text: "I am a second year student at the Faculty of Industrial Engineering and Robotics, UNSTPB, Bucharest. My top qualities are that I am a determined person who learns quickly and Ilike to work as efficiently as possible in terms of time and productivity"
+        text: "I am a second year student at the Faculty of Industrial Engineering and Robotics, UNSTPB, Bucharest. My top qualities are that I am a determined person who learns quickly and Ilike to work as efficiently as possible in terms of time and productivity."
     },
     education: {
         highschool: ["“Unirea” National College, Focsani, Romania","Specialising in mathematics and computer science","09/2018-06/2022"],

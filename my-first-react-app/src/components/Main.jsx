@@ -2,7 +2,7 @@ import '../assets/styles/main.scss'
 import data from '../assets/data';
 import Learn from './Learn'
 import { useState } from "react";
-import Skills from "./Skills"
+import HardSkills from "./Skills"
 
 function Main() {
 
@@ -40,12 +40,10 @@ function Main() {
                 </div>
             </div>
             <div className='skills'>
-                <h1>SKILLS</h1>
-                <div className='hard'>
-                    <Skills data = {data.skills.hard}/>
-                </div>
+                <HardSkills data = {data.skills.hard}/>
+                <h1>SOFT SKILLS</h1>
                 <div className='soft'>
-
+                    <i style = {{fontWeight: 700, fontSize: 18}}>{data.skills.soft}</i>
                 </div>
                 <div className='languages'></div>
                 <div className='projects'></div>
