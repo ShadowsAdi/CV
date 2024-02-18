@@ -10,16 +10,18 @@ function Header() {
             </div>
             <div className='numeNastere'>
                 <h1>Mazere Andreea</h1>
-                <h1>14/08/2003</h1>
+                <h2>14/08/2003</h2>
             </div>
             <div className='personalData'>
-                <h3>Phone:</h3>
-                <h3>I'm also on Whatsapp</h3>
-                <h3>Email:</h3>
-                <h3>linkedIn:</h3>
-                <h3>Address:</h3>
-                <h3>Github:</h3>
-                <h3>Driver's license:</h3>
+                {["Phone: ",
+                    "I'm also on Whatsapp",
+                    "Email: ",
+                    "linkedIn: ",
+                    "Address: ",
+                    "Github: ",
+                    "Driver's license: "].map((text, index) => (
+                        <h3 key = {index}>{text}</h3>
+                    ))}
             </div>
         </header>
     );
