@@ -1,8 +1,8 @@
-import photoCV from 'my-first-react-app\src\assets\images\poza.jpg'
+import photoCV from '../assets/images/poza.jpg'
 
-function Header() {
+export default function Header() {
 
-    const personalData = []
+    const personalData = [];
     return(
         <header>
             <div>
