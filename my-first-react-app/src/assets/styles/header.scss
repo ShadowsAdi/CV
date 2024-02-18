@@ -1,0 +1,32 @@
+@import 'variables';
+
+$width1: 0.77*$header;
+$width2: 50vw;
+header{
+    // margin: $margin_for_header_main_footer;
+    display: flex;
+    height: $header;
+    align-items: center;
+    >div:first-child img{
+        height: $header;
+        width: $width1; //0.77 is 75:97 to respect the ratio of the image
+    }
+    .numeNastere{
+       width: $width2;
+       line-height: 1.5;
+       h1:first-child {
+            font-weight: bold;
+       }
+       h1:nth-child(2){
+            font-style: italic;
+        }
+    }
+    .personalData{
+        width: calc(100vw - calc(($width1 + $width2)));
+        line-height: 1;
+    }
+}
+
+.general-description{
+    background-color:rgb(205, 50, 50);
+}

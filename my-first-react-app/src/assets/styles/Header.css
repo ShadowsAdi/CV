@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  height: 30vh;
+}
+header > div:first-child img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+header > div:nth-child(2) {
+  width: 100%;
+  background-color: aqua;
+}
+
+.general-description {
+  background-color: rgb(205, 50, 50);
+}/*# sourceMappingURL=header.css.map */

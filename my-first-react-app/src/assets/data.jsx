@@ -13,7 +13,7 @@ const rockpaperscissors = new Project("Kotlin", "easy", "Android Studio", "A gam
 const unitconverter = new Project("Kotlin", "intermediate", "Android Studio", "An app with the role of converting units by using a formula that is changing based on the user choice of the units to convert. For example centimeters in feet. ");
 
 //date personale
-const data = [{
+const data = {
     personalData: {
         phone: "+40 736 847 371", 
         email: "andreeamazere.am@gmail.com",
@@ -23,11 +23,13 @@ const data = [{
         driverslicense: "AM,B1,B"
     },
     summary: {
-        text: "I am a second year student at the Faculty of Industrial Engineering and Robotics, UNSTPB, Bucharest. My top qualities are that I am a determined person who learns quickly and Ilike to work as efficiently as possible in terms of time and productivity"
+        text: "I am a second year student at the Faculty of Industrial Engineering and Robotics, UNSTPB, Bucharest. My top qualities are that I am a determined person who learns quickly and Ilike to work as efficiently as possible in terms of time and productivity."
     },
     education: {
-        highschool: ["“Unirea” National College, Focsani, Romania","Specialising in mathematics and computer science","10/2022-present"],
-        undegrad: ["National University of Science and Technology Politehnica Bucharest, Faculty of Industrial Engineering and Robotics", "Specialising in industrial informatics","09/2018-06/2022"]
+        highschool: ["“Unirea” National College, Focsani, Romania","Specialising in mathematics and computer science","09/2018-06/2022"],
+        learn_in_hs: ["C++, Pseudocode"],
+        undegrad: ["BS in Industrial Engineering and Robotics","National University of Science and Technology Politehnica Bucharest", "Specialising in industrial informatics","10/2022-present"],
+        learn_in_undegrad: ["Fusion360, AutoCAD, OOP, IoT"]
     },
     skills : {
         hard: {
@@ -41,4 +43,6 @@ const data = [{
         languages: ["romanian","native","english","B2"]
     }
 
-}];
+};
+
+export default data;
