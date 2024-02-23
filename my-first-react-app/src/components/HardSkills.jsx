@@ -1,6 +1,6 @@
 import '../assets/styles/main.scss'
 
-export default function HardSkills({data}) {
+export default function Skills({data}) {
 
     function skill(x, first = 0){
         if(first == 1)
@@ -14,9 +14,7 @@ export default function HardSkills({data}) {
     return(
         //data = data.skills.hard
         //data[index] = software,webdev...one at a time
-        <> 
-            <h1>HARD SKILLS</h1>
-            <div className='hard'>
+            <div>
                 {Object.keys(data).map((index) => {
                     let idk = Array.isArray(data[index]);
                     if(idk == true){
@@ -29,6 +27,5 @@ export default function HardSkills({data}) {
                 })}
                 
             </div>
-        </>
     );
 }

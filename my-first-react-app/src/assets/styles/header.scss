@@ -5,7 +5,7 @@ $width2: 50vw;
 header{
     // margin: $margin_for_header_main_footer;
     display: flex;
-    height: $header;
+    
     align-items: center;
     >div:first-child img{
         height: $header;
@@ -23,7 +23,7 @@ header{
     }
     .personalData{
         width: calc(100vw - calc(($width1 + $width2)));
-        line-height: 1;
+        line-height: 1.5;
     }
 }
 
