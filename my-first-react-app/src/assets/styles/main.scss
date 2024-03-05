@@ -9,7 +9,7 @@ main{
     h1 {
         text-align: left;
     }
-    p{
+    h3{
         margin-top:$margin_for_sections;
     }
     //button17 https://getcssscan.com/css-buttons-examples:
@@ -32,8 +32,9 @@ main{
         }
     }
     .skills{
-        .hard{
-            margin: 15px 13px 15px 13px;
+        .soft{
+            margin: 18px 13px 18px 13px;
         }
+        
     }
 }
