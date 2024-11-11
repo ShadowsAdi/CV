@@ -31,6 +31,13 @@ main{
             justify-content: space-between;
         }
     }
+    .experience{
+        >div{
+            display: flex;
+            gap: 30%;
+        }
+        
+    }
     .skills{
         .soft{
             margin: 18px 13px 18px 13px;

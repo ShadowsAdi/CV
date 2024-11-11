@@ -23,13 +23,20 @@ const data = {
         driverslicense: "AM,B1,B"
     },
     summary: {
-        text: "I am a second year student at the Faculty of Industrial Engineering and Robotics, UNSTPB, Bucharest. My top qualities are that I am a determined person who learns quickly and Ilike to work as efficiently as possible in terms of time and productivity."
+        text: "I am a third year student at the Faculty of Industrial Engineering and Robotics, UNSTPB, Bucharest. My top qualities are that I am a determined person who learns quickly and Ilike to work as efficiently as possible in terms of time and productivity."
     },
     education: {
         highschool: ["“Unirea” National College, Focsani, Romania","Specialising in mathematics and computer science","09/2018-06/2022"],
         learn_in_hs: ["C++, Pseudocode"],
         undegrad: ["BS in Industrial Engineering and Robotics","National University of Science and Technology Politehnica Bucharest", "Specialising in industrial informatics","10/2022-present"],
         learn_in_undegrad: ["Fusion360, AutoCAD, OOP, IoT"]
+    },
+    experience: {
+        first_internship: {
+                when: "June 2024 – Aug 2024",
+                location: "MollerTech Romania, Bucharest",
+                about: ["• Used CATIA V5 software for surfaces, solids, assembly, drafting;", "• Construction of components of a complex part such as centering pins, ribs, welding pins or elements that mount parts to the machine body or other structures", "• Worked on designing the leather cover for the A-pillar assembly, creating draft angles for parts to facilitate demoulding, utilizing GSD surfaces"]
+            }
     },
     skills : {
         hard: {
