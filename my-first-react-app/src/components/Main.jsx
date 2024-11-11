@@ -4,7 +4,6 @@ import Learn from './Learn'
 import { useState } from "react";
 import Skills from "./HardSkills"
 import Education from './Education';
-import Experience from './Experience';
 
 function Main() {
 
@@ -18,11 +17,6 @@ function Main() {
                 <h1>EDUCATION</h1>
                 <div><Education education = {data.education.undegrad}/> <button>What did I learn in undergrad?</button></div>
                 <div><Education education = {data.education.highschool}/> <button>What did I learn in highschool?</button></div>
-            </div>
-            <div className='experience'>
-                <h1>Experience</h1>
-                <div><Experience experience = {data.experience.first_internship} bool={0}/></div>
-                <Experience experience = {data.experience.first_internship} bool={1}/>
             </div>
             <div className='skills'>
                 <h1>HARD SKILLS</h1>
